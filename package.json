@@ -1,0 +1,31 @@
+{
+  "name": "pharmacy-inventory-service",
+  "version": "1.0.0",
+  "description": "MERN Stack Pharmacy Inventory Management Web Service ready for Render deployment",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "keywords": [
+    "mern",
+    "pharmacy",
+    "inventory",
+    "render",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
